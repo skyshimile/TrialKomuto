@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_icon-arrow-down</name>
+   <tag></tag>
+   <elementGuidId>b71b9380-1ade-4da8-b50b-cb91e46a203e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-arrow-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main categories detail bg-grey&quot;]/div[1]/div[2]/section[@class=&quot;section is-paddingless section is-paddingless has-shadow&quot;]/div[@class=&quot;info-product&quot;]/div[@class=&quot;detail-rate&quot;]/div[@class=&quot;columns detail-rating is-mobile is-multiline no-margin-bottom&quot;]/div[@class=&quot;column&quot;]/div[@class=&quot;rating-content is-left&quot;]/a[@class=&quot;js-desc open-desc has-text-centered&quot;]/span[@class=&quot;icon-arrow-down&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

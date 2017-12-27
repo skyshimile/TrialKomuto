@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Saldo</name>
+   <tag></tag>
+   <elementGuidId>934e300c-fb3e-45e5-b548-c12fdf8dde51</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saldo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main main user bg-grey&quot;]/div[2]/div[1]/section[@class=&quot;section is-paddingless bg-white&quot;]/div[@class=&quot;profile-wrapp&quot;]/ul[1]/li[2]/div[@class=&quot;box is-paddingless&quot;]/article[@class=&quot;media&quot;]/div[@class=&quot;media-content&quot;]/div[@class=&quot;content&quot;]/p[1]/strong[1]</value>
+   </webElementProperties>
+</WebElementEntity>

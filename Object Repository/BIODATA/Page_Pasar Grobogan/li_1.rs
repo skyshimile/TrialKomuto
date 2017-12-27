@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_1</name>
+   <tag></tag>
+   <elementGuidId>d34a39db-253e-4c44-83a8-a253782b15f5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;Modal-Portal&quot;]/div[@class=&quot;datepicker-modal&quot;]/div[@class=&quot;datepicker default&quot;]/div[@class=&quot;datepicker-content&quot;]/div[@class=&quot;datepicker-col-1&quot;]/div[@class=&quot;datepicker-viewport&quot;]/div[@class=&quot;datepicker-wheel&quot;]/ul[@class=&quot;datepicker-scroll&quot;]/li[6]</value>
+   </webElementProperties>
+</WebElementEntity>
