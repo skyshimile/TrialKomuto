@@ -32,8 +32,7 @@ WebUI.setText(findTestObject('Page_Login/Page_Pasar Grobogan/Page_Pasar Grobogan
 
 WebUI.sendKeys(findTestObject('Page_Login/Page_Pasar Grobogan/Page_Pasar Grobogan/input_password'), Keys.chord(Keys.ENTER))
 
-LandingPage = WebUI.verifyElementPresent(findTestObject('Page_Login/Page_Pasar Grobogan/div_Email tidak terdaftar'), GlobalVariable.G_Timeout, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+LandingPage = WebUI.verifyElementPresent(findTestObject('Page_Login/Page_Pasar Grobogan/div_Email tidak terdaftar'), GlobalVariable.G_Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

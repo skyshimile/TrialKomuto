@@ -28,13 +28,35 @@ WebUI.setText(findTestObject('Page_Login/Page_Pasar Grobogan/Page_Pasar Grobogan
 
 WebUI.setText(findTestObject('Page_Login/Page_Pasar Grobogan/Page_Pasar Grobogan (2)/input_password'), 'katakmati')
 
-WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/form'))
+WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/button_Masuk'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/button_Masuk'))
 
-WebUI.waitForPageLoad(5)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/p_Kelola Akun'))
+WebUI.setText(findTestObject('BIODATA/Page_Pasar Grobogan (2)/input_email'), 'emile@skyshi.io')
+
+WebUI.setText(findTestObject('BIODATA/Page_Pasar Grobogan (2)/input_password'), 'katakmati')
+
+WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan (2)/button_Masuk'))
+
+WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan (2)/p_Kelola Akun'))
+
+WebUI.rightClick(findTestObject('BIODATA/Page_Pasar Grobogan (2)/p'))
+
+WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan (2)/li bio'))
+
+WebUI.closeBrowser()
+
+not_run: WebUI.waitForPageLoad(5)
+
+not_run: WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan (1)/kelola akun'))
+
+WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan (1)/strong_emileskyshi.io'))
+
+WebUI.click(findTestObject('Object Repository/BIODATA/Page_Pasar Grobogan (1)/kelola akun'))
 
 WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/Biodata'))
 
@@ -49,6 +71,10 @@ WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/span_01-03-1989'))
 WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/a_Ganti Foto Profil'))
 
 WebUI.click(findTestObject('BIODATA/Page_Pasar Grobogan/a_Simpan Perubahan'))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
 
 WebUI.closeBrowser()
 

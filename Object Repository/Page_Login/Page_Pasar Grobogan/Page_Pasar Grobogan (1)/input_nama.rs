@@ -4,6 +4,12 @@
    <name>input_nama</name>
    <tag></tag>
    <elementGuidId>6c38eda5-cfbe-4cdf-89a2-da9b4a956e82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'nama']) = count(//*[@name = 'nama'])][count(. | //*[@placeholder = 'Nama Lengkap']) = count(//*[@placeholder = 'Nama Lengkap'])][count(. | id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control has-icons-right&quot;]/input[@class=&quot;input&quot;]) = count(id(&quot;__next&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;main user&quot;]/div[2]/section[@class=&quot;section is-paddingless content&quot;]/div[@class=&quot;container is-fluid undefined&quot;]/form[1]/div[@class=&quot;form&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control has-icons-right&quot;]/input[@class=&quot;input&quot;])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -49,7 +55,7 @@
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

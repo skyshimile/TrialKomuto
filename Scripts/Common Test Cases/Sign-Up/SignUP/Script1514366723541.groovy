@@ -23,11 +23,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('mobiledev.komuto.com/signup')
 
-WebUI.setText(findTestObject('Page_SignUp/Page_Pasar Grobogan/input_nama'), 'emile27')
+WebUI.waitForPageLoad(15)
+
+WebUI.setText(findTestObject('Page_Login/Page_Pasar Grobogan/Page_Pasar Grobogan (1)/input_nama'), 'emile27')
 
 WebUI.setText(findTestObject('Page_SignUp/Page_Pasar Grobogan/input_handphone'), '081393121317')
 
-WebUI.setText(findTestObject('Page_SignUp/Page_Pasar Grobogan/input_email'), '20171227i@mailinator.com')
+WebUI.setText(findTestObject('Page_SignUp/Page_Pasar Grobogan/input_email'), '20171227ii@mailinator.com')
 
 WebUI.setText(findTestObject('Page_SignUp/Page_Pasar Grobogan/input_password'), 'katakmati')
 

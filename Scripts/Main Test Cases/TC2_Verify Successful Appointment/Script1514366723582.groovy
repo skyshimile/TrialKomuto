@@ -26,7 +26,7 @@ WebUI.comment('Given that the user has logged into their account')
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-WebUI.callTestCase(findTestCase('Common Test Cases/Login'), ['Username' : 'John Doe', 'Password' : 'ThisIsNotAPassword'], 
+WebUI.callTestCase(findTestCase('Common Test Cases/Sign-Up/Login'), ['Username' : 'John Doe', 'Password' : 'ThisIsNotAPassword'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('And Appointment page is displayed')

@@ -4,5 +4,5 @@
    <name>TrialKomuto</name>
    <tag></tag>
    <UUID>1b8bb969-bb54-4f53-b5b3-45e12e2523e9</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
